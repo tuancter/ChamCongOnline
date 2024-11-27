@@ -1,23 +1,29 @@
-# Project Title
+# Dự án Chấm Công Online
 
-This is a brief description of the project. It provides an overview of what the project is about, its purpose, and any important details that the reader should know upfront.
+Dự án chấm công online được tạo ra để quản lí chấm công của nhân viên, bên cạnh đó theo dõi các thông tin liên quan như lịch sử, thống kê lương, thống kê thời gian làm việc, ...
 
-## Installation
+## Khảo sát
+Khảo sát nhu cầu của các bộ phận và nhân viên trong công ty để hiểu rõ yêu cầu cụ thể. Khảo sát cũng bao gồm việc thu thập các yêu cầu về chức năng của hệ thống từ người dùng cuối và các bên liên quan khác. Các cuộc phỏng vấn, bảng câu hỏi và hội thảo có thể được sử dụng để thu thập thông tin
 
-This section provides instructions on how to install the project. Include any prerequisites, steps for installation, and any configurations that might be necessary.
 
-## Usage
+## Phân tích
+Trong giai đoạn phân tích, chúng ta tiến hành phân tích yêu cầu đã thu thập được trong giai đoạn khảo sát. Xác định các chức năng cần thiết của hệ thống, mô hình dữ liệu, và quy trình nghiệp vụ. Chúng ta cũng xem xét các ràng buộc về mặt kỹ thuật và tài nguyên để đảm bảo tính khả thi của dự án.
 
-Here you explain how to use the project after it has been installed. Include examples, commands, or steps that demonstrate how to get started with the project and any important features.
 
-## Features
+## Thiết kế
+Giai đoạn thiết kế bao gồm việc thiết kế hệ thống từ tổng quan đến chi tiết, bao gồm: 
+- Thiết kế cơ sở dữ liệu để lưu trữ thông tin chấm công, lịch sử, lương và thời gian làm việc.
+- Thiết kế giao diện người dùng sao cho dễ sử dụng và thân thiện.
+- Thiết kế các module chức năng như chấm công, xem lịch sử, thống kê lương, thống kê thời gian làm việc.
+- Thiết kế API giữa frontend và backend.
 
-List the main features of the project here. Describe what makes the project unique or particularly useful. This can include any functionality that sets it apart from similar projects.
 
-## Contributing
+## Công nghệ sử dụng 
+- **Backend**: Framework Flask của Python cho backend.
+- **Frontend**: HTML, CSS, Javascript cho frontend.
+- **Cơ sở dữ liệu**: MongoDB hoặc SQL để lưu trữ dữ liệu.
+- **Triển khai**: Docker để container hóa ứng dụng và quản lý triển khai
 
-Guidelines for contributing to the project. This might include how to submit issues, how to fork the project, coding standards, and any other information contributors might need to know.
+## Cài đặt và triển khai
 
-## License
 
-Details about the project's license. Explain how the project is licensed, and what users and contributors can and cannot do with the project. Include a link to the full license if applicable.
