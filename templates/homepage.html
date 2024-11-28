@@ -51,6 +51,28 @@
         .nav-bar a:hover {
             color:green;
         }
+        #regis{
+            background-color: whitesmoke;
+            color:#333
+        }
+        #regis:hover{
+            background-color: #333;
+            color: white;
+        }
+        .user-info {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid #ccc;
+            border-radius: 20px;
+            width: 300px;
+        }
+        .user-info h2 {
+            margin-top: 0;
+        }
+        .user-info p {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
@@ -58,14 +80,21 @@
         <div class="title"><a href="homepage.html" style="text-decoration: none; color: white;">Chấm Công Online</a></div>
         <div class="buttons">
             <a href="#">Đăng Nhập</a>
-            <a href="#">Đăng Ký</a>
+            <a id="regis" href="#">Đăng Ký</a>
         </div>
     </div>
     <div class="nav-bar">
-        <a href="chamcong.html">Chấm công</a>
+        <a href="#">Trang chủ</a>
+        <a href="#">Chấm công</a>
         <a href="#">Lịch sử chấm công</a>
-        <a href="#">Thông báo</a>
-        <a href="#">Liên hệ a</a>
+        <a href="#">Thống kê chấm công</a>
+        <a href="#">Thống kê lương</a>
+    </div>
+    <div class="user-info">
+        <h2>Thông tin nhân viên</h2>
+        <p><strong>Họ tên:</strong> Nguyễn Văn A</p>
+        <p><strong>Email:</strong> a@abc.com</p>
+        <p><strong>Số điện thoại:</strong> +1234567890</p>
     </div>
 </body>
 </html>
