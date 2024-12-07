@@ -21,7 +21,7 @@ Giai đoạn thiết kế bao gồm việc thiết kế hệ thống từ tổng
 ## Công nghệ sử dụng 
 - **Backend**: Framework Flask của Python cho backend.
 - **Frontend**: HTML, CSS, Javascript cho frontend.
-- **Cơ sở dữ liệu**: MongoDB hoặc SQL để lưu trữ dữ liệu.
+- **Cơ sở dữ liệu**: SQLite để lưu trữ dữ liệu.
 - **Triển khai**: Docker để container hóa ứng dụng và quản lý triển khai
 
 ## Cài đặt và triển khai
