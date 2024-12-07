@@ -1,0 +1,867 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "markupsafe",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "C:\\Users\\tuanp\\anaconda3\\pkgs\\wtforms-3.2.1-pyhd8ed1ab_1",
+  "files": [
+    "Lib/site-packages/wtforms-3.2.1.dist-info/INSTALLER",
+    "Lib/site-packages/wtforms-3.2.1.dist-info/METADATA",
+    "Lib/site-packages/wtforms-3.2.1.dist-info/RECORD",
+    "Lib/site-packages/wtforms-3.2.1.dist-info/REQUESTED",
+    "Lib/site-packages/wtforms-3.2.1.dist-info/WHEEL",
+    "Lib/site-packages/wtforms-3.2.1.dist-info/direct_url.json",
+    "Lib/site-packages/wtforms-3.2.1.dist-info/licenses/LICENSE.rst",
+    "Lib/site-packages/wtforms/__init__.py",
+    "Lib/site-packages/wtforms/csrf/__init__.py",
+    "Lib/site-packages/wtforms/csrf/core.py",
+    "Lib/site-packages/wtforms/csrf/session.py",
+    "Lib/site-packages/wtforms/fields/__init__.py",
+    "Lib/site-packages/wtforms/fields/choices.py",
+    "Lib/site-packages/wtforms/fields/core.py",
+    "Lib/site-packages/wtforms/fields/datetime.py",
+    "Lib/site-packages/wtforms/fields/form.py",
+    "Lib/site-packages/wtforms/fields/list.py",
+    "Lib/site-packages/wtforms/fields/numeric.py",
+    "Lib/site-packages/wtforms/fields/simple.py",
+    "Lib/site-packages/wtforms/form.py",
+    "Lib/site-packages/wtforms/i18n.py",
+    "Lib/site-packages/wtforms/locale/README.md",
+    "Lib/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/kk/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/kk/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/ro/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/ro/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/wtforms.pot",
+    "Lib/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.mo",
+    "Lib/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.po",
+    "Lib/site-packages/wtforms/meta.py",
+    "Lib/site-packages/wtforms/utils.py",
+    "Lib/site-packages/wtforms/validators.py",
+    "Lib/site-packages/wtforms/widgets/__init__.py",
+    "Lib/site-packages/wtforms/widgets/core.py",
+    "Lib/site-packages/wtforms/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/wtforms/csrf/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/wtforms/csrf/__pycache__/core.cpython-313.pyc",
+    "Lib/site-packages/wtforms/csrf/__pycache__/session.cpython-313.pyc",
+    "Lib/site-packages/wtforms/fields/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/wtforms/fields/__pycache__/choices.cpython-313.pyc",
+    "Lib/site-packages/wtforms/fields/__pycache__/core.cpython-313.pyc",
+    "Lib/site-packages/wtforms/fields/__pycache__/datetime.cpython-313.pyc",
+    "Lib/site-packages/wtforms/fields/__pycache__/form.cpython-313.pyc",
+    "Lib/site-packages/wtforms/fields/__pycache__/list.cpython-313.pyc",
+    "Lib/site-packages/wtforms/fields/__pycache__/numeric.cpython-313.pyc",
+    "Lib/site-packages/wtforms/fields/__pycache__/simple.cpython-313.pyc",
+    "Lib/site-packages/wtforms/__pycache__/form.cpython-313.pyc",
+    "Lib/site-packages/wtforms/__pycache__/i18n.cpython-313.pyc",
+    "Lib/site-packages/wtforms/__pycache__/meta.cpython-313.pyc",
+    "Lib/site-packages/wtforms/__pycache__/utils.cpython-313.pyc",
+    "Lib/site-packages/wtforms/__pycache__/validators.cpython-313.pyc",
+    "Lib/site-packages/wtforms/widgets/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/wtforms/widgets/__pycache__/core.cpython-313.pyc"
+  ],
+  "fn": "wtforms-3.2.1-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\tuanp\\anaconda3\\pkgs\\wtforms-3.2.1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "ad679d374d485c78b135e3da88ef4978",
+  "name": "wtforms",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\tuanp\\anaconda3\\pkgs\\wtforms-3.2.1-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/wtforms-3.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/wtforms-3.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "41a0494c1fc5aa2163505d8386b068e64f2e063e6d0356a6fa0c0d0e009d5a47",
+        "sha256_in_prefix": "41a0494c1fc5aa2163505d8386b068e64f2e063e6d0356a6fa0c0d0e009d5a47",
+        "size_in_bytes": 5279
+      },
+      {
+        "_path": "site-packages/wtforms-3.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f6cacbb1e683b41787891b71ade738117c3dafb9f6f252506665f5ff1deb2da8",
+        "sha256_in_prefix": "f6cacbb1e683b41787891b71ade738117c3dafb9f6f252506665f5ff1deb2da8",
+        "size_in_bytes": 9494
+      },
+      {
+        "_path": "site-packages/wtforms-3.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/wtforms-3.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
+        "sha256_in_prefix": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/wtforms-3.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a228782130b1d7c141a2eb34d1357d2e407282f1a912c07e9ed74c2a5d427a45",
+        "sha256_in_prefix": "a228782130b1d7c141a2eb34d1357d2e407282f1a912c07e9ed74c2a5d427a45",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/wtforms-3.2.1.dist-info/licenses/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "cf40d60ff34f6b2b68a53d220f8b66567b5ac8dd1119b37b62fd15e9518fe59b",
+        "sha256_in_prefix": "cf40d60ff34f6b2b68a53d220f8b66567b5ac8dd1119b37b62fd15e9518fe59b",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "site-packages/wtforms/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6909fc708b9947ef910606a4292e3d72a36f1f607e04fe14b39a320e9c7d0b91",
+        "sha256_in_prefix": "6909fc708b9947ef910606a4292e3d72a36f1f607e04fe14b39a320e9c7d0b91",
+        "size_in_bytes": 2408
+      },
+      {
+        "_path": "site-packages/wtforms/csrf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/wtforms/csrf/core.py",
+        "path_type": "hardlink",
+        "sha256": "f0a6b76404efa3d2355aaade3f563f8b5af4b7b9bc59cc3970aca756f24d5deb",
+        "sha256_in_prefix": "f0a6b76404efa3d2355aaade3f563f8b5af4b7b9bc59cc3970aca756f24d5deb",
+        "size_in_bytes": 3097
+      },
+      {
+        "_path": "site-packages/wtforms/csrf/session.py",
+        "path_type": "hardlink",
+        "sha256": "e1a8e0e68a1e755ad9c7150e69e223ed69cb452655a7d8e9c3fadfde8c9e1795",
+        "sha256_in_prefix": "e1a8e0e68a1e755ad9c7150e69e223ed69cb452655a7d8e9c3fadfde8c9e1795",
+        "size_in_bytes": 3092
+      },
+      {
+        "_path": "site-packages/wtforms/fields/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2f75f53b8a4e98b4660024e775b2301454b6a85bcede80df2373fa1ac95349c4",
+        "sha256_in_prefix": "2f75f53b8a4e98b4660024e775b2301454b6a85bcede80df2373fa1ac95349c4",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "site-packages/wtforms/fields/choices.py",
+        "path_type": "hardlink",
+        "sha256": "cc05becb5b35fec2a3353dea4705ae50ab14ae88c3f73211eaae4bc1f18ec197",
+        "sha256_in_prefix": "cc05becb5b35fec2a3353dea4705ae50ab14ae88c3f73211eaae4bc1f18ec197",
+        "size_in_bytes": 6882
+      },
+      {
+        "_path": "site-packages/wtforms/fields/core.py",
+        "path_type": "hardlink",
+        "sha256": "6bd3b28cda4d517310aba7b79bff5e5842aad4f289b210e62f6084887d81517d",
+        "sha256_in_prefix": "6bd3b28cda4d517310aba7b79bff5e5842aad4f289b210e62f6084887d81517d",
+        "size_in_bytes": 14385
+      },
+      {
+        "_path": "site-packages/wtforms/fields/datetime.py",
+        "path_type": "hardlink",
+        "sha256": "848994e160c43502bbba921e741409d58d8ddbe7f0c590a458e7de4580a26c51",
+        "sha256_in_prefix": "848994e160c43502bbba921e741409d58d8ddbe7f0c590a458e7de4580a26c51",
+        "size_in_bytes": 5034
+      },
+      {
+        "_path": "site-packages/wtforms/fields/form.py",
+        "path_type": "hardlink",
+        "sha256": "fd5ade35a0f2d5e6bf03b6f79b851d9dd61d72625bca8903618c995bfe6324e1",
+        "sha256_in_prefix": "fd5ade35a0f2d5e6bf03b6f79b851d9dd61d72625bca8903618c995bfe6324e1",
+        "size_in_bytes": 2897
+      },
+      {
+        "_path": "site-packages/wtforms/fields/list.py",
+        "path_type": "hardlink",
+        "sha256": "95f9fcf5a9e4c8c809120a317f9d21a656007bb66afd5bc0a7693f14032f50dd",
+        "sha256_in_prefix": "95f9fcf5a9e4c8c809120a317f9d21a656007bb66afd5bc0a7693f14032f50dd",
+        "size_in_bytes": 6471
+      },
+      {
+        "_path": "site-packages/wtforms/fields/numeric.py",
+        "path_type": "hardlink",
+        "sha256": "637f4e0c393d7a1e8d72d6fc80ec76eaed22a220a120851cce9c4094af15c9ac",
+        "sha256_in_prefix": "637f4e0c393d7a1e8d72d6fc80ec76eaed22a220a120851cce9c4094af15c9ac",
+        "size_in_bytes": 6157
+      },
+      {
+        "_path": "site-packages/wtforms/fields/simple.py",
+        "path_type": "hardlink",
+        "sha256": "541a7c9914f99f7851307e44ae022366d6ea46bde3691bf69598f834c82ce976",
+        "sha256_in_prefix": "541a7c9914f99f7851307e44ae022366d6ea46bde3691bf69598f834c82ce976",
+        "size_in_bytes": 4075
+      },
+      {
+        "_path": "site-packages/wtforms/form.py",
+        "path_type": "hardlink",
+        "sha256": "0c93a88e5c0bbacc1f842d73b1549ea6b31b1aa3c05de77a7d1c6e9e0d77d4ee",
+        "sha256_in_prefix": "0c93a88e5c0bbacc1f842d73b1549ea6b31b1aa3c05de77a7d1c6e9e0d77d4ee",
+        "size_in_bytes": 12619
+      },
+      {
+        "_path": "site-packages/wtforms/i18n.py",
+        "path_type": "hardlink",
+        "sha256": "f003134d2a50e5dfa138d79537caeddd11f481173732f978cd4ba6f07ca27fcf",
+        "sha256_in_prefix": "f003134d2a50e5dfa138d79537caeddd11f481173732f978cd4ba6f07ca27fcf",
+        "size_in_bytes": 1958
+      },
+      {
+        "_path": "site-packages/wtforms/locale/README.md",
+        "path_type": "hardlink",
+        "sha256": "45bfad65d4f9ac4ad70e87bd94e99797c163f190993f213d7eaa5bd24436a3c6",
+        "sha256_in_prefix": "45bfad65d4f9ac4ad70e87bd94e99797c163f190993f213d7eaa5bd24436a3c6",
+        "size_in_bytes": 1515
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "5a4b39bf740694d4d1a08bb500a4a62876dab57433416603e28e22789768910c",
+        "sha256_in_prefix": "5a4b39bf740694d4d1a08bb500a4a62876dab57433416603e28e22789768910c",
+        "size_in_bytes": 4393
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "b1062f1acb9bb1fce6d5faf7a93b88c94c6691367493bafa7bfa7387bfe09333",
+        "sha256_in_prefix": "b1062f1acb9bb1fce6d5faf7a93b88c94c6691367493bafa7bfa7387bfe09333",
+        "size_in_bytes": 6919
+      },
+      {
+        "_path": "site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "bf378d966ccecd6ed8b167d63ea23666de83830d1b77de109cbc912e1b91272e",
+        "sha256_in_prefix": "bf378d966ccecd6ed8b167d63ea23666de83830d1b77de109cbc912e1b91272e",
+        "size_in_bytes": 3932
+      },
+      {
+        "_path": "site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "73bd316d1d38b713d552c79176706cbe0f8a5546d49b548e30c692c3bdca1c70",
+        "sha256_in_prefix": "73bd316d1d38b713d552c79176706cbe0f8a5546d49b548e30c692c3bdca1c70",
+        "size_in_bytes": 6534
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "a74b45bc1522a7bc024658f0fd2a8515e095e1c18d4e5bb9a30a61aecb8ad97a",
+        "sha256_in_prefix": "a74b45bc1522a7bc024658f0fd2a8515e095e1c18d4e5bb9a30a61aecb8ad97a",
+        "size_in_bytes": 3177
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "dbf8dad7548c4cf314b84e59e99db7b29da5ceabf96676461230d768e903d20c",
+        "sha256_in_prefix": "dbf8dad7548c4cf314b84e59e99db7b29da5ceabf96676461230d768e903d20c",
+        "size_in_bytes": 5693
+      },
+      {
+        "_path": "site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "7953c850e7dd21e3daa0244fa0c147c62dc4bae0726b5c545398c931ff308b7f",
+        "sha256_in_prefix": "7953c850e7dd21e3daa0244fa0c147c62dc4bae0726b5c545398c931ff308b7f",
+        "size_in_bytes": 3398
+      },
+      {
+        "_path": "site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "45942052204b3dd2d9b4c29dfd6a893d3553d3e203cecb625d382c39a3585be0",
+        "sha256_in_prefix": "45942052204b3dd2d9b4c29dfd6a893d3553d3e203cecb625d382c39a3585be0",
+        "size_in_bytes": 5858
+      },
+      {
+        "_path": "site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "de04d596b3fb37d84db3d02f9bff1d261614acc08aca4f9548415d0c4bc43351",
+        "sha256_in_prefix": "de04d596b3fb37d84db3d02f9bff1d261614acc08aca4f9548415d0c4bc43351",
+        "size_in_bytes": 3142
+      },
+      {
+        "_path": "site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "d02872264c5d0ae93b8436876fb1d8bbf75f8d4b1da56d5078f5b5cec9b063fa",
+        "sha256_in_prefix": "d02872264c5d0ae93b8436876fb1d8bbf75f8d4b1da56d5078f5b5cec9b063fa",
+        "size_in_bytes": 5647
+      },
+      {
+        "_path": "site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "2f1f96824e706e49550e8dcf03078eb44caad3eaace7477c5188307717c50294",
+        "sha256_in_prefix": "2f1f96824e706e49550e8dcf03078eb44caad3eaace7477c5188307717c50294",
+        "size_in_bytes": 3175
+      },
+      {
+        "_path": "site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "14da4e5eaa00324e4096f6125952c2132e072d2d2f43d97bb813f512ac79782a",
+        "sha256_in_prefix": "14da4e5eaa00324e4096f6125952c2132e072d2d2f43d97bb813f512ac79782a",
+        "size_in_bytes": 5687
+      },
+      {
+        "_path": "site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "d72c5ad396e3d29772b7b85efb1e1ff19576f69c2b861e1cde834d2178c2946b",
+        "sha256_in_prefix": "d72c5ad396e3d29772b7b85efb1e1ff19576f69c2b861e1cde834d2178c2946b",
+        "size_in_bytes": 3169
+      },
+      {
+        "_path": "site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "9b89e1521645071b157344c4abfa633372943cf846601f586a6273a74688d15b",
+        "sha256_in_prefix": "9b89e1521645071b157344c4abfa633372943cf846601f586a6273a74688d15b",
+        "size_in_bytes": 5694
+      },
+      {
+        "_path": "site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "563e9913eab792dfddc780410de7430a3b2c6d95514719d5d06cb5241b23841a",
+        "sha256_in_prefix": "563e9913eab792dfddc780410de7430a3b2c6d95514719d5d06cb5241b23841a",
+        "size_in_bytes": 3951
+      },
+      {
+        "_path": "site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "dd5d4d8444faa7c970bc76de7450eba047b7161e24d9ad06ce4b11b81d5c1720",
+        "sha256_in_prefix": "dd5d4d8444faa7c970bc76de7450eba047b7161e24d9ad06ce4b11b81d5c1720",
+        "size_in_bytes": 6583
+      },
+      {
+        "_path": "site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "e8c22362d9eddfa6cbaf610e199085271fd49edba74140a285ffe19d64cd1fda",
+        "sha256_in_prefix": "e8c22362d9eddfa6cbaf610e199085271fd49edba74140a285ffe19d64cd1fda",
+        "size_in_bytes": 3323
+      },
+      {
+        "_path": "site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "627ecf6f8ac5986c70a777a6256fda02a081059670f84f894c60a57cbefc0d8f",
+        "sha256_in_prefix": "627ecf6f8ac5986c70a777a6256fda02a081059670f84f894c60a57cbefc0d8f",
+        "size_in_bytes": 5046
+      },
+      {
+        "_path": "site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "1d0d524826c9b63c96f2ab40e0df7a227e8b703ded834bdf1b987223f2ae0d48",
+        "sha256_in_prefix": "1d0d524826c9b63c96f2ab40e0df7a227e8b703ded834bdf1b987223f2ae0d48",
+        "size_in_bytes": 3882
+      },
+      {
+        "_path": "site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "36d2ce3cc8b3e296d162ea748c84c017b84d62d5038288c52bbe25e04a89833b",
+        "sha256_in_prefix": "36d2ce3cc8b3e296d162ea748c84c017b84d62d5038288c52bbe25e04a89833b",
+        "size_in_bytes": 5857
+      },
+      {
+        "_path": "site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "c64d2f792d018879d8fbb1a916c219ad40bed19ed43da5d5f3d58c89601c2d1b",
+        "sha256_in_prefix": "c64d2f792d018879d8fbb1a916c219ad40bed19ed43da5d5f3d58c89601c2d1b",
+        "size_in_bytes": 3202
+      },
+      {
+        "_path": "site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "c3e8e7b2d37f739b3c36dcc6c1cfb1bffd7a83cc1fadae80e98bdda7c5b1da59",
+        "sha256_in_prefix": "c3e8e7b2d37f739b3c36dcc6c1cfb1bffd7a83cc1fadae80e98bdda7c5b1da59",
+        "size_in_bytes": 5706
+      },
+      {
+        "_path": "site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "86ba6b33eac32753167118546454a7e630ec17d2c826c03497fe79df2feac216",
+        "sha256_in_prefix": "86ba6b33eac32753167118546454a7e630ec17d2c826c03497fe79df2feac216",
+        "size_in_bytes": 3796
+      },
+      {
+        "_path": "site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "f27b3cb1079307d1fe4de1c9daf4911a1646e2bf6117d686e10435870300c6f0",
+        "sha256_in_prefix": "f27b3cb1079307d1fe4de1c9daf4911a1646e2bf6117d686e10435870300c6f0",
+        "size_in_bytes": 6377
+      },
+      {
+        "_path": "site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "19509779daa17be068b689b898c951af55cac91d623e7931a82a54042e7b855c",
+        "sha256_in_prefix": "19509779daa17be068b689b898c951af55cac91d623e7931a82a54042e7b855c",
+        "size_in_bytes": 3152
+      },
+      {
+        "_path": "site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "ae74b69ea55542f686a8fb4ee26c57e56032d40c15f1167d1c4b6d58747c6676",
+        "sha256_in_prefix": "ae74b69ea55542f686a8fb4ee26c57e56032d40c15f1167d1c4b6d58747c6676",
+        "size_in_bytes": 5661
+      },
+      {
+        "_path": "site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "6a3c153a3f76d0921b928cc985fe65c3adf01aae299e0df212c6a343be54b096",
+        "sha256_in_prefix": "6a3c153a3f76d0921b928cc985fe65c3adf01aae299e0df212c6a343be54b096",
+        "size_in_bytes": 3961
+      },
+      {
+        "_path": "site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "d8125ffe10aa8443c65bccaac2fef0bde5683f5128710b510dc4a409920ed72c",
+        "sha256_in_prefix": "d8125ffe10aa8443c65bccaac2fef0bde5683f5128710b510dc4a409920ed72c",
+        "size_in_bytes": 5995
+      },
+      {
+        "_path": "site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "2a9778c74fd8f7824997b27c027701f1c766a16e3c7202adaea30ca4abc11830",
+        "sha256_in_prefix": "2a9778c74fd8f7824997b27c027701f1c766a16e3c7202adaea30ca4abc11830",
+        "size_in_bytes": 3265
+      },
+      {
+        "_path": "site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "ff5edcbee884cfe31baa9e5d01ad01621ea9aaffb1f09c85735c459609ec3d93",
+        "sha256_in_prefix": "ff5edcbee884cfe31baa9e5d01ad01621ea9aaffb1f09c85735c459609ec3d93",
+        "size_in_bytes": 5853
+      },
+      {
+        "_path": "site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "a18ff0b4873041c0307fee9f2eafd91cbcb19e3e48b953333a24337200b03ba9",
+        "sha256_in_prefix": "a18ff0b4873041c0307fee9f2eafd91cbcb19e3e48b953333a24337200b03ba9",
+        "size_in_bytes": 3275
+      },
+      {
+        "_path": "site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "e89a0e739e953184161217a4785c5d94796bd6a01e3f7d5b158b99868610a563",
+        "sha256_in_prefix": "e89a0e739e953184161217a4785c5d94796bd6a01e3f7d5b158b99868610a563",
+        "size_in_bytes": 5692
+      },
+      {
+        "_path": "site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "82968e62fa2ace1651601beeb3918e845aa25db6bcc5ceeb8164a418ef5fc217",
+        "sha256_in_prefix": "82968e62fa2ace1651601beeb3918e845aa25db6bcc5ceeb8164a418ef5fc217",
+        "size_in_bytes": 3248
+      },
+      {
+        "_path": "site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "841a22a452307ff882ad5127504c3d28c2d13d076863e72a1dd8480ca631768d",
+        "sha256_in_prefix": "841a22a452307ff882ad5127504c3d28c2d13d076863e72a1dd8480ca631768d",
+        "size_in_bytes": 5762
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "08f1c26fdabb6654a449f8d1bd58212f5f923f3e30581a490d828e3203bfc3cd",
+        "sha256_in_prefix": "08f1c26fdabb6654a449f8d1bd58212f5f923f3e30581a490d828e3203bfc3cd",
+        "size_in_bytes": 3481
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "d6eda08c567f0d56ae52de31fae4e5ccd381e63af0aa7036e2222c6bff35c4b4",
+        "sha256_in_prefix": "d6eda08c567f0d56ae52de31fae4e5ccd381e63af0aa7036e2222c6bff35c4b4",
+        "size_in_bytes": 5925
+      },
+      {
+        "_path": "site-packages/wtforms/locale/kk/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "847f8517a9871fc01c3264366297a3786e6c87bc55f56cc6af92182ac4fddf57",
+        "sha256_in_prefix": "847f8517a9871fc01c3264366297a3786e6c87bc55f56cc6af92182ac4fddf57",
+        "size_in_bytes": 4921
+      },
+      {
+        "_path": "site-packages/wtforms/locale/kk/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "9ef5931e2636c45db3a979b9d482296064a8d8a789e4e5e8ad940b587781d81e",
+        "sha256_in_prefix": "9ef5931e2636c45db3a979b9d482296064a8d8a789e4e5e8ad940b587781d81e",
+        "size_in_bytes": 6898
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "aa9acfae9864c4dff1bfc9db42e3d9b5d4d832d7f3fed2dd75dc4ee0a54c20c7",
+        "sha256_in_prefix": "aa9acfae9864c4dff1bfc9db42e3d9b5d4d832d7f3fed2dd75dc4ee0a54c20c7",
+        "size_in_bytes": 4291
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "ced16fea258bac00913d9ae6b8a1c9ed0eb3da9c10fd029deb06495aee5697da",
+        "sha256_in_prefix": "ced16fea258bac00913d9ae6b8a1c9ed0eb3da9c10fd029deb06495aee5697da",
+        "size_in_bytes": 6222
+      },
+      {
+        "_path": "site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "1b36bdaf314cd9fe0e75d6266c27d66c9a11ab8878e179b0aa013a49a046c703",
+        "sha256_in_prefix": "1b36bdaf314cd9fe0e75d6266c27d66c9a11ab8878e179b0aa013a49a046c703",
+        "size_in_bytes": 3080
+      },
+      {
+        "_path": "site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "91ccc5f648557ebcda4105866aee78ccf2de983d5d3a233293372baf23cac245",
+        "sha256_in_prefix": "91ccc5f648557ebcda4105866aee78ccf2de983d5d3a233293372baf23cac245",
+        "size_in_bytes": 5590
+      },
+      {
+        "_path": "site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "3ae1e6b405ebf97325cd76fb1c089ff6ac08b99646a5eb83eadcc1cb79b76046",
+        "sha256_in_prefix": "3ae1e6b405ebf97325cd76fb1c089ff6ac08b99646a5eb83eadcc1cb79b76046",
+        "size_in_bytes": 3732
+      },
+      {
+        "_path": "site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "45517accb533a065e7b7c4be193ba40a1e5c175b39d971bec237ccde8c39140a",
+        "sha256_in_prefix": "45517accb533a065e7b7c4be193ba40a1e5c175b39d971bec237ccde8c39140a",
+        "size_in_bytes": 5702
+      },
+      {
+        "_path": "site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "9a018066a88518f54094a59a896c36635770203614d21f7547f90ca8c8b6890c",
+        "sha256_in_prefix": "9a018066a88518f54094a59a896c36635770203614d21f7547f90ca8c8b6890c",
+        "size_in_bytes": 3428
+      },
+      {
+        "_path": "site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "e82791235c6a256ee14ec1a17cf54c8dc2e4df8ef4fdda8f4c7b19f17281a957",
+        "sha256_in_prefix": "e82791235c6a256ee14ec1a17cf54c8dc2e4df8ef4fdda8f4c7b19f17281a957",
+        "size_in_bytes": 5982
+      },
+      {
+        "_path": "site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "cc93bf7ecb1be14b6112e0ca01bbde3ef6db45aa86ce251259c5f1d56e4cb568",
+        "sha256_in_prefix": "cc93bf7ecb1be14b6112e0ca01bbde3ef6db45aa86ce251259c5f1d56e4cb568",
+        "size_in_bytes": 3892
+      },
+      {
+        "_path": "site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "095a5abacd9c7c5109cf486f525bed42fb3ea40cdb694ea22397b3c2316303a0",
+        "sha256_in_prefix": "095a5abacd9c7c5109cf486f525bed42fb3ea40cdb694ea22397b3c2316303a0",
+        "size_in_bytes": 5864
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ro/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "edb0c8d220871fb668af60b9eb6578e0bb0c75cc4ba68b43acd9a5378bfdee1f",
+        "sha256_in_prefix": "edb0c8d220871fb668af60b9eb6578e0bb0c75cc4ba68b43acd9a5378bfdee1f",
+        "size_in_bytes": 4066
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ro/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "24ac8bf00aaf23a19513c7da7ee40b75f7958f1a4be49a4ccd8be4a9ce072c5b",
+        "sha256_in_prefix": "24ac8bf00aaf23a19513c7da7ee40b75f7958f1a4be49a4ccd8be4a9ce072c5b",
+        "size_in_bytes": 6398
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "de8673017d45854abdec5c5b944610451292d5ef1f122f0c7f803de957be5e8a",
+        "sha256_in_prefix": "de8673017d45854abdec5c5b944610451292d5ef1f122f0c7f803de957be5e8a",
+        "size_in_bytes": 4712
+      },
+      {
+        "_path": "site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "9ea2b230346e9c48e766a983dfe592d2ef6c56399efb2ebf9996de606ec0fa63",
+        "sha256_in_prefix": "9ea2b230346e9c48e766a983dfe592d2ef6c56399efb2ebf9996de606ec0fa63",
+        "size_in_bytes": 7298
+      },
+      {
+        "_path": "site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "89386175bd08aa98d520c5aa81c41b979f87a70d05bbbd6d93cb8eb2311c7dd2",
+        "sha256_in_prefix": "89386175bd08aa98d520c5aa81c41b979f87a70d05bbbd6d93cb8eb2311c7dd2",
+        "size_in_bytes": 4054
+      },
+      {
+        "_path": "site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "aa0f46cfe9387178058f4cb8457cb36f253e8e6cccf2fed86e22bbd63ba7099f",
+        "sha256_in_prefix": "aa0f46cfe9387178058f4cb8457cb36f253e8e6cccf2fed86e22bbd63ba7099f",
+        "size_in_bytes": 6070
+      },
+      {
+        "_path": "site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "62c9db074af5a998fb90e4ca4d89c80c1d3147eecd88a1346580671f7d983638",
+        "sha256_in_prefix": "62c9db074af5a998fb90e4ca4d89c80c1d3147eecd88a1346580671f7d983638",
+        "size_in_bytes": 3818
+      },
+      {
+        "_path": "site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "f91c9b3cc998e3b53c57a48c77a14426509cdf451612162754c0617f9d996deb",
+        "sha256_in_prefix": "f91c9b3cc998e3b53c57a48c77a14426509cdf451612162754c0617f9d996deb",
+        "size_in_bytes": 5787
+      },
+      {
+        "_path": "site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "40bf82cb4df6af4238c9597b41f9455cfae1cbf6772d7c340241603653a66355",
+        "sha256_in_prefix": "40bf82cb4df6af4238c9597b41f9455cfae1cbf6772d7c340241603653a66355",
+        "size_in_bytes": 3885
+      },
+      {
+        "_path": "site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "f9dd3a06c339cd1217628ed9c323a4658fe1a25837c0354549f88ff9d6abdf99",
+        "sha256_in_prefix": "f9dd3a06c339cd1217628ed9c323a4658fe1a25837c0354549f88ff9d6abdf99",
+        "size_in_bytes": 5854
+      },
+      {
+        "_path": "site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "d7b305ff10274d036373bab97141c8de5bfd2d19e2356110daaecc5d71c9bd1d",
+        "sha256_in_prefix": "d7b305ff10274d036373bab97141c8de5bfd2d19e2356110daaecc5d71c9bd1d",
+        "size_in_bytes": 5187
+      },
+      {
+        "_path": "site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "c6873b93ed4cc022a7b6e4ead15bd5b31cde19319c2acabdc22434d123c22813",
+        "sha256_in_prefix": "c6873b93ed4cc022a7b6e4ead15bd5b31cde19319c2acabdc22434d123c22813",
+        "size_in_bytes": 7209
+      },
+      {
+        "_path": "site-packages/wtforms/locale/wtforms.pot",
+        "path_type": "hardlink",
+        "sha256": "837fc438fcfae214a3abb4f2e33beea0dc7853b2dda00e0ba17b66a86215aa19",
+        "sha256_in_prefix": "837fc438fcfae214a3abb4f2e33beea0dc7853b2dda00e0ba17b66a86215aa19",
+        "size_in_bytes": 4249
+      },
+      {
+        "_path": "site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "f250c35e588a327a3c801bb592e00bcd9149bd1109141b6da6dbdfc9825eb084",
+        "sha256_in_prefix": "f250c35e588a327a3c801bb592e00bcd9149bd1109141b6da6dbdfc9825eb084",
+        "size_in_bytes": 3296
+      },
+      {
+        "_path": "site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "0068a0eb510e9be8abe2c3a14f4729af9335d2c9ed2da4a783804ae5fbd1aa06",
+        "sha256_in_prefix": "0068a0eb510e9be8abe2c3a14f4729af9335d2c9ed2da4a783804ae5fbd1aa06",
+        "size_in_bytes": 5812
+      },
+      {
+        "_path": "site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.mo",
+        "path_type": "hardlink",
+        "sha256": "f5467af5bc29e0205542a06998bbb1094bdd95e62a1913fe3ce3b3a77a820c83",
+        "sha256_in_prefix": "f5467af5bc29e0205542a06998bbb1094bdd95e62a1913fe3ce3b3a77a820c83",
+        "size_in_bytes": 3653
+      },
+      {
+        "_path": "site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.po",
+        "path_type": "hardlink",
+        "sha256": "6ec94dce4d4a84b88685dddf43d89f026093ce3800713b46ff3e8ad928a2f8f9",
+        "sha256_in_prefix": "6ec94dce4d4a84b88685dddf43d89f026093ce3800713b46ff3e8ad928a2f8f9",
+        "size_in_bytes": 5596
+      },
+      {
+        "_path": "site-packages/wtforms/meta.py",
+        "path_type": "hardlink",
+        "sha256": "494f00ea00dc776c03915ccd99218c2c1065cbf7cc05329507b043e8609fc58a",
+        "sha256_in_prefix": "494f00ea00dc776c03915ccd99218c2c1065cbf7cc05329507b043e8609fc58a",
+        "size_in_bytes": 4097
+      },
+      {
+        "_path": "site-packages/wtforms/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b0010b95ff9dee85c1a946db2ef46479f9af53e83aa87195c8f673a453d6a12a",
+        "sha256_in_prefix": "b0010b95ff9dee85c1a946db2ef46479f9af53e83aa87195c8f673a453d6a12a",
+        "size_in_bytes": 2399
+      },
+      {
+        "_path": "site-packages/wtforms/validators.py",
+        "path_type": "hardlink",
+        "sha256": "f3b0b7256079d70ac435cc7923a029e6020b8096c959950ceedc710b79403418",
+        "sha256_in_prefix": "f3b0b7256079d70ac435cc7923a029e6020b8096c959950ceedc710b79403418",
+        "size_in_bytes": 21927
+      },
+      {
+        "_path": "site-packages/wtforms/widgets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d6c51d82fcb5996de0d886ab092ec48efb1e8761aab811c64d287fcf3eeae35b",
+        "sha256_in_prefix": "d6c51d82fcb5996de0d886ab092ec48efb1e8761aab811c64d287fcf3eeae35b",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "site-packages/wtforms/widgets/core.py",
+        "path_type": "hardlink",
+        "sha256": "69a9735c7cd0a99929b8c67cf766c6a4384d7e8f58f65b9f17e5ddc579e18d46",
+        "sha256_in_prefix": "69a9735c7cd0a99929b8c67cf766c6a4384d7e8f58f65b9f17e5ddc579e18d46",
+        "size_in_bytes": 15509
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/csrf/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/csrf/__pycache__/core.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/csrf/__pycache__/session.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/fields/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/fields/__pycache__/choices.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/fields/__pycache__/core.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/fields/__pycache__/datetime.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/fields/__pycache__/form.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/fields/__pycache__/list.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/fields/__pycache__/numeric.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/fields/__pycache__/simple.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/__pycache__/form.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/__pycache__/i18n.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/__pycache__/meta.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/__pycache__/utils.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/__pycache__/validators.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/widgets/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/wtforms/widgets/__pycache__/core.cpython-313.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a962e27d39f68ae473065311857ebec632d38a79f05df4321b8e700071d98e17",
+  "size": 75816,
+  "subdir": "noarch",
+  "timestamp": 1733061603000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/wtforms-3.2.1-pyhd8ed1ab_1.conda",
+  "version": "3.2.1"
+}
