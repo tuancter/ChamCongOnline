@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Flash</title>
+    <style>
+        .flash-message {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            z-index: 1000;
+            display: none;
+            background-color: #ffffff;
+            border-radius: 5px;
+            transition: opacity 1s ease-out, filter 1s ease-out;
+            animation: burst 0.5s ease-out;
+        }
+
+        .flash-message.success {
+            color: #155724;
+            border: 1px solid #155724;
+        }
+
+        .flash-message.danger {
+            color: #ff0019;
+            border: 1px solid #ff0019;
+        }
+
+        .flash-message.hide {
+            opacity: 0;
+            filter: blur(5px);
+        }
+
+        @keyframes burst {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Flash message container -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="flash-messages">
+                {% for category, message in messages %}
+                    <div class="flash-message {{ category }}">{{ message }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const flashMessages = document.querySelectorAll('.flash-message');
+            flashMessages.forEach(function(message) {
+                message.style.display = 'block';
+                setTimeout(function() {
+                    message.classList.add('hide');
+                }, 4000);
+                setTimeout(function() {
+                    message.style.display = 'none';
+                }, 5000);
+            });
+        });
+    </script>
+</body>
+</html>

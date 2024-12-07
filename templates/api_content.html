@@ -1,0 +1,18 @@
+
+<div class="api-content" id="api-content">Loading...</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Fetch content from API and display it in the header
+        fetch('https://api.openweathermap.org/data/2.5/weather?lat=21.0278&lon=105.8342&appid=94f45491131df458f4da2d842df82b25')
+            .then(response => response.json())
+            .then(data => {
+                const cityName = data.name;
+                const degree = data.wind.deg;
+                document.getElementById('api-content').textContent = `Thành phố: ${cityName}, Nhiệt độ: ${degree}°C`;
+            })
+            .catch(error => {
+                document.getElementById('api-content').textContent = 'Failed to load content';
+                console.error('Error fetching API content:', error);
+            });
+    });
+</script>
