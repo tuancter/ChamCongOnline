@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chấm Công Online - Trang chủ</title>
+    <title>Trang chủ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -61,12 +61,12 @@
             color: green;
         }
 
-        #regis {
+        #register {
             background-color: whitesmoke;
             color: #333
         }
 
-        #regis:hover {
+        #register:hover {
             background-color: #333;
             color: white;
         }
@@ -92,14 +92,11 @@
             display: flex;
             flex-direction: column;
             width: 200px;
-            /* Adjust width as needed */
             margin: 0 auto;
-            /* Center the container horizontally */
         }
 
         .form input {
             margin: 10px 0;
-            /* Add space between input boxes */
             padding: 10px;
             box-sizing: border-box;
         }
@@ -111,8 +108,8 @@
         <div class="title"><a href="/" style="color: rgb(231, 222, 222); text-decoration: none;">Chấm Công Online</a>
         </div>
         <div class="buttons">
-            <a href="">Đăng Nhập</a>
-            <a id="regis" href="">Đăng Ký</a>
+            <a id="login" href="login">Đăng Nhập</a>
+            <a id="register" href="/register">Đăng Ký</a>
         </div>
     </div>
     <div class="nav-bar">
@@ -121,13 +118,6 @@
         <a href="">Lịch sử chấm công</a>
         <a href="">Thống kê chấm công</a>
         <a href="">Thống kê lương</a>
-    </div>
-
-    <div class="user-info">
-        <h2>Thông tin nhân viên</h2>
-        <p><strong>Họ tên:</strong> {{name}}</p>
-        <p><strong>Email:</strong> {{email}}</p>
-        <p><strong>Số điện thoại:</strong> {{phone}}</p>
     </div>
 
 </body>
