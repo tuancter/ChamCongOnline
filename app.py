@@ -1,5 +1,9 @@
 from flask import Flask, redirect, url_for, render_template, request, flash, get_flashed_messages, send_from_directory, session
 from config import get_db_connection, init_db
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__, static_url_path='/static')
 app.secret_key = 'chamcongdb_key'
@@ -24,13 +28,18 @@ def register():
             flash("Mật khẩu không khớp!", "danger")
             return redirect(url_for('register'))
         else:
-            conn = get_db_connection()
-            conn.execute('INSERT INTO accounts (username, email, password, role) VALUES (?, ?, ?, ?)',
-                         (username, email, password, role))
-            conn.commit()
-            conn.close()
-            flash("Đăng ký thành công!", "success")
-            return redirect(url_for('login'))
+            try:
+                conn = get_db_connection()
+                conn.execute('INSERT INTO accounts (username, email, password, role) VALUES (?, ?, ?, ?)',
+                             (username, email, password, role))
+                conn.commit()
+                conn.close()
+                flash("Đăng ký thành công!", "success")
+                return redirect(url_for('login'))
+            except Exception as e:
+                logging.error(f"Error inserting into accounts: {e}")
+                flash("Đã xảy ra lỗi khi đăng ký!", "danger")
+                return redirect(url_for('register'))
     return render_template("register.html")
 
 @app.route("/login", methods=["POST", "GET"])
@@ -39,19 +48,24 @@ def login():
         username = request.form['username']
         password = request.form['password']
         
-        conn = get_db_connection()
-        user = conn.execute('SELECT * FROM accounts WHERE username = ? AND password = ?', (username, password)).fetchone()
-        conn.close()
-        
-        if user:
-            session['user_id'] = user['id_account']
-            flash("Đăng nhập thành công!", "success")
-            if user['role'] == 'admin':
-                return redirect(url_for('admin'))
+        try:
+            conn = get_db_connection()
+            user = conn.execute('SELECT * FROM accounts WHERE username = ? AND password = ?', (username, password)).fetchone()
+            conn.close()
+            
+            if user:
+                session['user_id'] = user['id_account']
+                flash("Đăng nhập thành công!", "success")
+                if user['role'] == 'admin':
+                    return redirect(url_for('admin'))
+                else:
+                    return redirect(url_for('user'))
             else:
-                return redirect(url_for('user'))
-        else:
-            flash("Sai thông tin đăng nhập!", "danger")
+                flash("Sai thông tin đăng nhập!", "danger")
+                return redirect(url_for('login'))
+        except Exception as e:
+            logging.error(f"Error querying accounts: {e}")
+            flash("Đã xảy ra lỗi khi đăng nhập!", "danger")
             return redirect(url_for('login'))
     return render_template("login.html")
 
@@ -105,15 +119,20 @@ def profile():
         position = request.form['position']
         salary = request.form['salary']
 
-        if user_info:
-            conn.execute('UPDATE users SET name = ?, dateOfBirth = ?, address = ?, phone_number = ?, email = ?, position = ?, salary = ? WHERE id_account = ?',
-                         (name, dateOfBirth, address, phone_number, email, position, salary, user_id))
-        else:
-            conn.execute('INSERT INTO users (id_account, name, dateOfBirth, address, phone_number, email, position, salary) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
-                         (user_id, name, dateOfBirth, address, phone_number, email, position, salary))
-        conn.commit()
-        flash("Thông tin đã được cập nhật.", "success")
-        conn.close()
+        try:
+            if user_info:
+                conn.execute('UPDATE users SET name = ?, dateOfBirth = ?, address = ?, phone_number = ?, email = ?, position = ?, salary = ? WHERE id_account = ?',
+                             (name, dateOfBirth, address, phone_number, email, position, salary, user_id))
+            else:
+                conn.execute('INSERT INTO users (id_account, name, dateOfBirth, address, phone_number, email, position, salary) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+                             (user_id, name, dateOfBirth, address, phone_number, email, position, salary))
+            conn.commit()
+            flash("Thông tin đã được cập nhật.", "success")
+        except Exception as e:
+            logging.error(f"Error updating/inserting users: {e}")
+            flash("Đã xảy ra lỗi khi cập nhật thông tin!", "danger")
+        finally:
+            conn.close()
         return redirect(url_for('profile'))
 
     conn.close()
